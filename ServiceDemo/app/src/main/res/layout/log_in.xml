@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="45sp"
+                    android:textColor="@android:color/white" />
+
+
+            </android.support.v7.widget.Toolbar>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/companyNameId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/devonshire"
+                android:gravity="center"
+                android:text="Real State Service"
+                android:textColor="@android:color/white"
+                android:textSize="45sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/usameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:hint="Username"
+                android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+                android:drawablePadding="25dp"
+                android:drawableTint="#B8B8B8"
+                android:textColor="#E9E9E9"
+                android:textColorHint="#B9B9B9"
+                android:inputType="textPersonName"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                />
+
+            <EditText
+                android:id="@+id/usernameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="12dp"
+                android:hint="Username"
+                android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+                android:drawablePadding="25dp"
+                android:drawableTint="#B8B8B8"
+                android:textColor="#E9E9E9"
+                android:textColorHint="#B9B9B9"
+                android:inputType="textPersonName"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                />
+            <EditText
+                android:id="@+id/usernameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="12dp"
+                android:hint="Username"
+                android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+                android:drawablePadding="25dp"
+                android:drawableTint="#B8B8B8"
+                android:textColor="#E9E9E9"
+                android:textColorHint="#B9B9B9"
+                android:inputType="textPersonName"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                />
+            <EditText
+                android:id="@+id/usernameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="12dp"
+                android:hint="Username"
+                android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+                android:drawablePadding="25dp"
+                android:drawableTint="#B8B8B8"
+                android:textColor="#E9E9E9"
+                android:textColorHint="#B9B9B9"
+                android:inputType="textPersonName"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                />
+            <EditText
+                android:id="@+id/usernameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="12dp"
+                android:hint="Username"
+                android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+                android:drawablePadding="25dp"
+                android:drawableTint="#B8B8B8"
+                android:textColor="#E9E9E9"
+                android:textColorHint="#B9B9B9"
+                android:inputType="textPersonName"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/edittext_background"
+                android:padding="12dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

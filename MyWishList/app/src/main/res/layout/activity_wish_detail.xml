@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="16dp"
+    android:paddingHorizontal="16dp"
+    tools:context=".WishDetailActivity">
+
+    <TextView
+        android:id="@+id/detailsTitleId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="My Title"
+        android:textAlignment="center"
+        android:textColor="#ff847f6a"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/detailsTextViewId"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="#c3767162"
+        android:text="My Wish...."
+        android:textSize="13sp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/detailsDateId"
+        android:textStyle="italic"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/detailsTextViewId"
+        android:text="Date here.."
+        android:layout_alignParentRight="true"
+        android:textSize="11sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

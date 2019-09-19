@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/building8"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:id="@+id/compayNameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:text="Sign In"
+                android:textAlignment="center"
+                android:fontFamily="@font/droidsans"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                />
+            <TextView
+                android:id="@+id/companyNameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/droidsans"
+                android:text="Real Estate Community"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="27sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="20dp"
+                android:id="@+id/textInputLayoutUserName"
+                app:hintTextAppearance="@style/TextInputLayoutHintText"
+                android:textColorHint="#B9B9B9"
+                android:layout_width="match_parent"
+                android:gravity="bottom"
+                android:layout_height="80dp">
+
+                <EditText
+                    android:id="@+id/userNameId"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/edittext_background"
+                    android:hint="User Name"
+                    android:inputType="textPersonName"
+                    android:padding="12dp"
+                    android:textColor="#E9E9E9"
+                    android:textColorHint="#B9B9B9"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/companyNameId" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutPassword"
+                app:hintTextAppearance="@style/TextInputLayoutHintText"
+                android:textColorHint="#B9B9B9"
+                android:layout_width="match_parent"
+                android:gravity="bottom"
+                android:layout_height="80dp">
+
+                <EditText
+                    android:id="@+id/userNamePassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
+                    android:background="@drawable/edittext_background"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="12dp"
+                    android:textColor="#E9E9E9"
+                    android:textColorHint="#B9B9B9"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/companyNameId" />
+            </android.support.design.widget.TextInputLayout>
+
+            <CheckBox
+                android:id="@+id/checkbox_meat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="end"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:buttonTint="@android:color/white"
+                android:text="Remember Me"
+                />
+
+
+            <Button
+                android:id="@+id/signInButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/button_style"
+                android:text="SIGN IN"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/forgetPasswordId"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="55dp"
+                android:layout_marginEnd="55dp"
+                android:layout_gravity="end"
+                android:text="Forgot Password"
+                android:layout_marginBottom="10dp"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

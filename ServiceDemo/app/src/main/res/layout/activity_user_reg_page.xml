@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:animateLayoutChanges="true"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".user_reg_page">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="10dp"
+            app:hintTextAppearance="@style/TextInputLayoutHintText"
+            android:id="@+id/userNamell"
+            android:textColorHint="#B9B9B9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="UserName"
+                android:textColor="#B9B9B9"
+                android:background="@drawable/edittext_background"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+
+
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+        <EditText
+            android:id="@+id/usernameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="50dp"
+            android:hint="Username"
+            android:textColor="#E9E9E9"
+            android:textColorHint="#B9B9B9"
+            android:inputType="textPersonName"
+            android:layout_marginEnd="35dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/companyNameId"
+            android:background="@drawable/edittext_background"
+            android:padding="12dp"
+            android:textSize="20sp"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/userNllame"
+            app:hintTextAppearance="@style/TextInputLayoutHintText"
+            android:textColorHint="#B9B9B9"
+            android:layout_width="match_parent"
+            android:gravity="bottom"
+            android:layout_height="80dp">
+
+            <EditText
+                android:id="@+id/usernameIdo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/edittext_background"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:padding="12dp"
+                android:textColor="#E9E9E9"
+                android:textColorHint="#B9B9B9"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/companyNameId" />
+        </android.support.design.widget.TextInputLayout>
+
+
+            <!--<EditText-->
+                <!--android:id="@+id/usernooameIdo"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="25dp"-->
+                <!--android:layout_marginEnd="25dp"-->
+                <!--android:background="@drawable/edittext_background"-->
+                <!--android:hint="User Name"-->
+                <!--android:inputType="textPersonName"-->
+                <!--android:padding="15dp"-->
+                <!--android:textColor="#E9E9E9"-->
+                <!--android:textColorHint="#B9B9B9"-->
+                <!--android:textSize="20sp"-->
+                <!--android:translationY="20dp"-->
+                <!--android:layout_marginBottom="55dp"-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintHorizontal_bias="0.0"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/companyNameId" />-->
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/ullserNllame"
+            app:hintTextAppearance="@style/TextInputLayoutHintText"
+            android:textColorHint="#B9B9B9"
+            android:layout_width="match_parent"
+            android:gravity="bottom"
+            android:layout_height="80dp">
+
+            <EditText
+                android:id="@+id/usernameIiido"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="25dp"
+                android:hint="User Name"
+                android:textColor="#E9E9E9"
+                android:textColorHint="#B9B9B9"
+                android:inputType="textPersonName"
+                android:layout_marginEnd="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/companyNameId"
+                android:background="@drawable/edittext_background"
+
+                android:padding="15dp"
+                android:textSize="20sp"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/ullserNljjlame"
+            app:hintTextAppearance="@style/TextInputLayoutHintText"
+            android:textColorHint="#B9B9B9"
+            android:layout_width="match_parent"
+            android:gravity="bottom"
+            android:layout_height="80dp">
+
+            <EditText
+                android:id="@+id/datePickerId"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginStart="25dp"
+                android:hint="Enter Date"
+                android:textColor="#E9E9E9"
+                android:textColorHint="#B9B9B9"
+                android:inputType="date"
+                android:layout_marginEnd="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/companyNameId"
+                android:background="@drawable/edittext_background"
+
+                android:padding="15dp"
+                android:textSize="20sp"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="20dp"
+                android:id="@+id/ulserNljjlame"
+                app:hintTextAppearance="@style/TextInputLayoutHintText"
+                android:textColorHint="#B9B9B9"
+                android:layout_width="match_parent"
+                android:gravity="bottom"
+                android:layout_height="80dp">
+
+
+                <EditText
+                    android:id="@+id/imageId"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="25dp"
+                    android:hint="Spinner"
+                    android:textColor="#E9E9E9"
+                    android:textColorHint="#B9B9B9"
+                    android:drawableRight="@drawable/ic_perm_identity_black_24dp"
+                    android:inputType="date"
+                    android:layout_marginEnd="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/companyNameId"
+                    android:background="@drawable/edittext_background"
+                    android:padding="15dp"
+                    android:textSize="20sp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#DABBBB"
+    tools:context=".Kitchen_Cleaning">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vendor Name"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                android:background="@color/colorPrimary"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:gravity="center"
+                android:id="@+id/c1"
+                android:paddingLeft="10dp"
+                android:text="Dhaka Co."
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+            <CheckBox
+                android:gravity="center"
+                android:id="@+id/c21"
+                android:paddingLeft="10dp"
+                android:text="Uttara Co."
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+            <CheckBox
+                android:gravity="center"
+                android:id="@+id/c3"
+                android:paddingLeft="10dp"
+                android:text="Kolkata Co."
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+            <CheckBox
+                android:gravity="center"
+                android:id="@+id/c4"
+                android:paddingLeft="10dp"
+                android:text="Kolabagan Co."
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

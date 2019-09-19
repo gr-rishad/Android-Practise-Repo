@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/compayNameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        app:fontFamily="@font/devonshire"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".497"
+        app:layout_constraintStart_toStartOf="parent"
+         />
+
+    <TextView
+        android:id="@+id/companyNameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:text="Real State Service"
+        android:textAlignment="center"
+        app:fontFamily="@font/devonshire"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/usernameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="50dp"
+        android:hint="Username"
+        android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+        android:drawablePadding="25dp"
+        android:drawableTint="#B8B8B8"
+        android:textColor="#E9E9E9"
+        android:textColorHint="#B9B9B9"
+        android:inputType="textPersonName"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/companyNameId"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/emailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="15dp"
+        android:hint="E-mail"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="25dp"
+        android:drawableTint="#B8B8B8"
+        android:textColor="#E9E9E9"
+        android:textColorHint="#B9B9B9"
+        android:inputType="textPersonName"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/usernameId"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/phoneNumberId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="15dp"
+        android:hint="Phone Number"
+        android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+        android:drawablePadding="25dp"
+        android:drawableTint="#B8B8B8"
+        android:textColor="#E9E9E9"
+        android:textColorHint="#B9B9B9"
+        android:inputType="textPassword"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/emailId"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/passwordId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="25dp"
+        android:drawableTint="#B8B8B8"
+        android:textColor="#E9E9E9"
+        android:textColorHint="#B9B9B9"
+        android:inputType="textPassword"
+        android:layout_marginEnd="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNumberId"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textSize="20sp"/>
+    
+
+
+    <Button
+        android:id="@+id/signUpButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_style"
+        android:text="SIGN UP"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/logInId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an Account ? Log In"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:onClick="onClick"
+        android:clickable="true"
+        />
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

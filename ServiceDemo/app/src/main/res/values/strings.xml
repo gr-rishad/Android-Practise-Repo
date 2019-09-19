@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Service Demo</string>
+
+    <string-array name="country">
+
+        <item>AbC</item>
+        <item>AbC</item>
+        <item>AbC</item>
+        <item>AbC</item>
+        <item>AbC</item>
+        <item>AbC</item>
+        <item>AbC</item>
+    </string-array>
+</resources>

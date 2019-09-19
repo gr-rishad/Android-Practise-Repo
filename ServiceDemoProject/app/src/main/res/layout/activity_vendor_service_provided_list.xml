@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:id="@+id/companyNameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:text="Service Provided"
+                android:textAlignment="center"
+                app:fontFamily="@font/devonshire"
+                android:textColor="@android:color/white"
+                android:textSize="45sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias=".497"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_marginHorizontal="30dp"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:gravity="center"
+                    android:id="@+id/c1"
+                    android:paddingLeft="10dp"
+                    android:text="Home Cleaning"
+                    android:textColor="@android:color/white"
+                    android:buttonTint="@android:color/white"
+                    android:textSize="23sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" />
+                <CheckBox
+                    android:gravity="center"
+                    android:id="@+id/c21"
+                    android:paddingLeft="10dp"
+                    android:text="Car Washing"
+                    android:textColor="@android:color/white"
+                    android:buttonTint="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" />
+                <CheckBox
+                    android:gravity="center"
+                    android:id="@+id/c212"
+                    android:paddingLeft="10dp"
+                    android:text="Kitchen Watching"
+                    android:textColor="@android:color/white"
+                    android:buttonTint="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" />
+                <CheckBox
+                    android:gravity="center"
+                    android:id="@+id/cw21"
+                    android:paddingLeft="10dp"
+                    android:text="Electric Bill"
+                    android:textColor="@android:color/white"
+                    android:buttonTint="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" />
+                <CheckBox
+                    android:gravity="center"
+                    android:id="@+id/cw2d1"
+                    android:paddingLeft="10dp"
+                    android:text="Mobile Reparing"
+                    android:textColor="@android:color/white"
+                    android:buttonTint="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" />
+                <CheckBox
+                    android:gravity="center"
+                    android:id="@+id/cwd2d1"
+                    android:paddingLeft="10dp"
+                    android:text="Car Reparing"
+                    android:textColor="@android:color/white"
+                    android:buttonTint="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/vendorSignUpButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/button_style"
+                android:text="Registration"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
